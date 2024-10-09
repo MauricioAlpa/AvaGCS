@@ -2,3 +2,6 @@ git config --global user. - Este comando serve para deixar um footprint de quem 
 git init - Este comando serve para criar o repositorio local
 git status - serve para verificar em qual branch estamos trabalhando 
 git add - este comando possui 3 variáveis, sendo o add ./ add <nome_do_arquivo>/ add .txt/html.. serve para adicionar os arquivos a uma área intermediária antes dos commits 
+git rm --cached <nome do arquivo> - Remove o arquivo especificado apenas do staging, sem deletá-lo do sistema de arquivos. Ele continua existindo localmente.
+git rm --cached *.txt -  Remover todos os arquivos com extensão .txt da área de staging
+git rm -r --cached . - Remove arquivos de maneira recursiva, sendo assim, ele entra nelas e remove os arquivos também.
