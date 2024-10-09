@@ -5,3 +5,17 @@ git add - este comando possui 3 variáveis, sendo o add ./ add <nome_do_arquivo>
 git rm --cached <nome do arquivo> - Remove o arquivo especificado apenas do staging, sem deletá-lo do sistema de arquivos. Ele continua existindo localmente.
 git rm --cached *.txt -  Remover todos os arquivos com extensão .txt da área de staging
 git rm -r --cached . - Remove arquivos de maneira recursiva, sendo assim, ele entra nelas e remove os arquivos também.
+git commit -m "Mensagem do commit" - Cria um commit com uma mensagem descritiva/ -m especificado a mensagem do commit direto no terminal
+Para conectar o repositorio local com o do git, utilizamos dois comandos:
+
+git remote add origin <url>
+    remote: Gerencia as conexões com repositórios remotos.
+    add: Adiciona um novo repositório remoto.
+    origin: É o nome padrão dado ao repositório remoto principal. Pode ser substituído por outro nome, se necessário, mas geralmente usa-se "origin".
+    <url>: O URL do repositório remoto no GitHub, GitLab ou outra plataforma. Ele pode ser fornecido em HTTPS ou SSH (ex: https://github.com/SEU_USUARIO/NOME_REPOSITORIO.git).
+
+git push -u origin master
+    push: Envia as mudanças do repositório local para o repositório remoto.
+    -u: Define a branch padrão de upstream, o que significa que as próximas vezes que você fizer git push ou git pull, não será necessário especificar o nome do repositório remoto e a branch.
+    origin: Refere-se ao repositório remoto que você adicionou anteriormente com git remote add origin.
+    master: É a branch principal (branch padrão) que você está enviando. Se estiver usando outra branch, substitua "master" pelo nome da branch, como main ou outra que você tenha criado.
