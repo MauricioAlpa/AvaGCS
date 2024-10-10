@@ -1,0 +1,23 @@
+---Aula 1---
+
+Slide 1 ao 6: Apresentação do curso, e as métricas de avaliação.
+Slide 7: Breve resumo do que se trata o SCM
+Slide 8: De forma resumida, mostra o que é um software
+Slide 9: Explica para que serve o SCM, demonstrando alguns topicos que percorremos durante o desenvolvimento de um software
+Slide 10: O slide descreve a evolução da Gerência de Configuração de Software desde os anos 50, inicialmente focada em aeronaves militares, até a adoção de normas internacionais nos anos 80.
+Slide 11: Este slide define item de configuração, baseline e auditoria de configuração, destacando a importância do gerenciamento de software para manter a rastreabilidade e evitar inconsistências.
+Slide 12: O slide mostra que no desenvolvimento de software, todos têm um papel importante no gerenciamento de configuração, desde desenvolvedores e testadores até gerentes e designers.
+Slide 13: A gerência de mudanças no software envolve a autorização e o controle de alterações propostas, garantindo que elas sejam avaliadas e implementadas de forma a manter a estabilidade do sistema.
+Slide 14: O Issue Tracking é um sistema que gerencia solicitações de mudança (issues) relacionadas a tarefas como implementação e correções, utilizando atributos como título, descrição e prioridade para organizar e acompanhar o progresso.
+Slide 15: Milestones são marcos de projeto que agrupam issues relacionadas a um objetivo específico, enquanto o comitê de controle de mudança é responsável por revisar e decidir sobre as mudanças propostas no projeto.
+Slide 16: Imagem que demonstra como as plataformas de versionamento já integram os conceitos de SCM.
+Slide 17: Imamgem que demonsta o monstro que o código ficaria, caso não houvessem metodos para gerir o desenvolvimento.
+Slide 18: O slide reflete sobre as dificuldades de desenvolver grandes softwares da mesma forma que alteramos documentos de texto, destacando a falta de escalabilidade e a confusão gerada por versões e arquivos distintos.
+Slide 19: O slide destaca que o controle de versão é aplicado através de ferramentas, com o Git sendo a mais utilizada para documentar alterações no código.
+Slide 20: O slide explica que o diretório de trabalho é onde estão os arquivos do projeto, o repositório armazena as versões e histórico de modificações, e o histórico de versão documenta as alterações realizadas no projeto.
+Slide 21: Brincadeira com uma imagem, reforçando a ideia de que sem o SCM, o código viraria algo sem pé nem cabeça.
+
+---Aula 2---
+
+Slide 2: Este slide trás o que foi abordado na aula passada e sua importância, destacando o Git como a tecnologia mais popular para versionamento de código.
+Slide 3: 
