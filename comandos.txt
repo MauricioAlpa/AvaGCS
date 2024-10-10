@@ -1,11 +1,19 @@
 git config --global user. - Este comando serve para deixar um footprint de quem fez os commits. Git é a tecnologia utilizada, config serve para alterar as variaveis dos dados de usuario e --global serve para abranger todos os repositorios 
+
 git init - Este comando serve para criar o repositorio local
+
 git status - serve para verificar em qual branch estamos trabalhando 
+
 git add - este comando possui 3 variáveis, sendo o add ./ add <nome_do_arquivo>/ add .txt/html.. serve para adicionar os arquivos a uma área intermediária antes dos commits 
+
 git rm --cached <nome do arquivo> - Remove o arquivo especificado apenas do staging, sem deletá-lo do sistema de arquivos. Ele continua existindo localmente.
+
 git rm --cached *.txt -  Remover todos os arquivos com extensão .txt da área de staging
+
 git rm -r --cached . - Remove arquivos de maneira recursiva, sendo assim, ele entra nelas e remove os arquivos também.
+
 git commit -m "Mensagem do commit" - Cria um commit com uma mensagem descritiva/ -m especificado a mensagem do commit direto no terminal
+
 Para conectar o repositorio local com o do git, utilizamos dois comandos:
 
 git remote add origin <url>
@@ -19,3 +27,17 @@ git push -u origin master
     -u: Define a branch padrão de upstream, o que significa que as próximas vezes que você fizer git push ou git pull, não será necessário especificar o nome do repositório remoto e a branch.
     origin: Refere-se ao repositório remoto que você adicionou anteriormente com git remote add origin.
     master: É a branch principal (branch padrão) que você está enviando. Se estiver usando outra branch, substitua "master" pelo nome da branch, como main ou outra que você tenha criado.
+
+git clone <url HTTPS> - Este comando é usado para clonar um repositório do GitHub para a sua máquina local fazendo uso de uma HTTPS.
+
+git clone <SSH Ref> - Assim como no HTTPS, este comando baixa o repositório, porém, faz-se necessário criar uma chave de acesso SSH.
+
+gh repo clone <nome repositório> - Este comando usa a GitHub CLI (Command Line Interface), uma ferramenta oficial do GitHub, para clonar o repositório. É uma alternativa aos métodos HTTPS e SSH.
+
+git pull - Atualiza o repositório local com o que tem no repositório remoto.
+
+git push - Atualiza o repositório remoto com o que tem no repositório local
+
+Caso queira especificar a branch que atualizara o repositório local, utilizar o comando - git pull origin <nome da branch>
+
+git push --set-upstream origin nome-da-branch
