@@ -1,0 +1,71 @@
+git config --global user. - Este comando serve para deixar um footprint de quem fez os commits. Git é a tecnologia utilizada, config serve para alterar as variaveis dos dados de usuario e --global serve para abranger todos os repositorios 
+
+git init - Este comando serve para criar o repositorio local
+
+git status - serve para verificar em qual branch estamos trabalhando 
+
+git add - este comando possui 3 variáveis, sendo o add ./ add <nome_do_arquivo>/ add .txt/html.. serve para adicionar os arquivos a uma área intermediária antes dos commits 
+
+git rm --cached <nome do arquivo> - Remove o arquivo especificado apenas do staging, sem deletá-lo do sistema de arquivos. Ele continua existindo localmente.
+
+git rm --cached *.txt -  Remover todos os arquivos com extensão .txt da área de staging
+
+git rm -r --cached . - Remove arquivos de maneira recursiva, sendo assim, ele entra nelas e remove os arquivos também.
+
+git commit -m "Mensagem do commit" - Cria um commit com uma mensagem descritiva/ -m especificado a mensagem do commit direto no terminal
+
+Para conectar o repositorio local com o do git, utilizamos dois comandos:
+
+git remote add origin <url>
+    remote: Gerencia as conexões com repositórios remotos.
+    add: Adiciona um novo repositório remoto.
+    origin: É o nome padrão dado ao repositório remoto principal. Pode ser substituído por outro nome, se necessário, mas geralmente usa-se "origin".
+    <url>: O URL do repositório remoto no GitHub, GitLab ou outra plataforma. Ele pode ser fornecido em HTTPS ou SSH (ex: https://github.com/SEU_USUARIO/NOME_REPOSITORIO.git).
+
+git push -u origin master
+    push: Envia as mudanças do repositório local para o repositório remoto.
+    -u: Define a branch padrão de upstream, o que significa que as próximas vezes que você fizer git push ou git pull, não será necessário especificar o nome do repositório remoto e a branch.
+    origin: Refere-se ao repositório remoto que você adicionou anteriormente com git remote add origin.
+    master: É a branch principal (branch padrão) que você está enviando. Se estiver usando outra branch, substitua "master" pelo nome da branch, como main ou outra que você tenha criado.
+
+git clone <url HTTPS> - Este comando é usado para clonar um repositório do GitHub para a sua máquina local fazendo uso de uma HTTPS.
+
+git clone <SSH Ref> - Assim como no HTTPS, este comando baixa o repositório, porém, faz-se necessário criar uma chave de acesso SSH.
+
+gh repo clone <nome repositório> - Este comando usa a GitHub CLI (Command Line Interface), uma ferramenta oficial do GitHub, para clonar o repositório. É uma alternativa aos métodos HTTPS e SSH.
+
+git pull - Atualiza o repositório local com o que tem no repositório remoto.
+
+git push - Atualiza o repositório remoto com o que tem no repositório local
+
+Caso queira especificar a branch que atualizara o repositório local, utilizar o comando - git pull origin <nome da branch>
+
+git push --set-upstream origin nome-da-branch - Isso permite que, nas próximas vezes, você possa simplesmente usar git push sem especificar o nome do repositório remoto ou da branch.
+
+git log – Exibe o histórico de commits da branch atual.
+
+git checkout <branch> – Muda para a branch especificada e se move para o último commit dessa branch.
+
+git checkout -b <branch> – Cria uma nova branch com o nome especificado e troca para ela imediatamente.
+
+git checkout <id-do-commit> – Se move para o commit específico identificado pelo ID fornecido (isso coloca o repositório em estado de "detached HEAD").
+
+git checkout tags/<nome-da-tag> – Se move para o commit associado à tag especificada.
+
+git merge <branch> – Junta as mudanças da branch especificada com a branch atual, criando um commit de merge se as branches estiverem separadas.
+
+git merge --no-ff <branch> – Força a criação de um commit de merge mesmo se a branch mergeada for descendente da branch atual, permitindo melhor organização do histórico.
+
+git rebase <branch> – Reaplica os commits da branch atual em cima da branch especificada, movendo a base da branch atual para o ponto mais recente da branch indicada. Isso ajuda a manter um histórico de commits linear e mais organizado.
+
+git merge --abort – Cancela um merge em andamento que pode ter encontrado conflitos, revertendo o repositório ao estado anterior ao início do merge. É útil quando você decide que não deseja continuar com o merge atual e quer retornar à situação anterior.
+
+git remote add <apelido> <URL> – Conecta um repositório local a um repositório remoto, usando o apelido especificado para referenciá-lo em futuros comandos de pull e push.
+
+git remote -v – Lista todos os repositórios remotos conectados ao repositório local, mostrando seus apelidos e URLs.
+
+git remote rm <apelido> – Remove o repositório remoto identificado pelo apelido especificado, desconectando-o do repositório local.
+
+git remote rename <antigo> <novo> – Renomeia o apelido de um repositório remoto, permitindo que você mude a forma como se refere a ele.
+
+git remote set-url <apelido> <URL> – Altera a URL associada a um repositório remoto específico, permitindo que você mude para um novo local sem precisar remover e adicionar o remote novamente.
