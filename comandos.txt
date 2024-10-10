@@ -40,4 +40,32 @@ git push - Atualiza o repositório remoto com o que tem no repositório local
 
 Caso queira especificar a branch que atualizara o repositório local, utilizar o comando - git pull origin <nome da branch>
 
-git push --set-upstream origin nome-da-branch
+git push --set-upstream origin nome-da-branch - Isso permite que, nas próximas vezes, você possa simplesmente usar git push sem especificar o nome do repositório remoto ou da branch.
+
+git log – Exibe o histórico de commits da branch atual.
+
+git checkout <branch> – Muda para a branch especificada e se move para o último commit dessa branch.
+
+git checkout -b <branch> – Cria uma nova branch com o nome especificado e troca para ela imediatamente.
+
+git checkout <id-do-commit> – Se move para o commit específico identificado pelo ID fornecido (isso coloca o repositório em estado de "detached HEAD").
+
+git checkout tags/<nome-da-tag> – Se move para o commit associado à tag especificada.
+
+git merge <branch> – Junta as mudanças da branch especificada com a branch atual, criando um commit de merge se as branches estiverem separadas.
+
+git merge --no-ff <branch> – Força a criação de um commit de merge mesmo se a branch mergeada for descendente da branch atual, permitindo melhor organização do histórico.
+
+git rebase <branch> – Reaplica os commits da branch atual em cima da branch especificada, movendo a base da branch atual para o ponto mais recente da branch indicada. Isso ajuda a manter um histórico de commits linear e mais organizado.
+
+git merge --abort – Cancela um merge em andamento que pode ter encontrado conflitos, revertendo o repositório ao estado anterior ao início do merge. É útil quando você decide que não deseja continuar com o merge atual e quer retornar à situação anterior.
+
+git remote add <apelido> <URL> – Conecta um repositório local a um repositório remoto, usando o apelido especificado para referenciá-lo em futuros comandos de pull e push.
+
+git remote -v – Lista todos os repositórios remotos conectados ao repositório local, mostrando seus apelidos e URLs.
+
+git remote rm <apelido> – Remove o repositório remoto identificado pelo apelido especificado, desconectando-o do repositório local.
+
+git remote rename <antigo> <novo> – Renomeia o apelido de um repositório remoto, permitindo que você mude a forma como se refere a ele.
+
+git remote set-url <apelido> <URL> – Altera a URL associada a um repositório remoto específico, permitindo que você mude para um novo local sem precisar remover e adicionar o remote novamente.
