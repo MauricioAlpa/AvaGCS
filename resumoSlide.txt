@@ -55,4 +55,4 @@ Slide 34: Mais exemplos de como se fazer bons commits.
 Slide 35: Slide fala sobre workflows.
 Slide 36: Slide descre o fluxo com bifurcação (fork)
 Slide 37: O slide aborda a possibilidade de trabalhar com um repositório local conectado a múltiplos repositórios remotos.
-Slide 38 ao 40: Atividade pontuada.
+Slide 38 ao 40: Atividade pontuada com orintações.
