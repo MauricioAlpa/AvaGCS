@@ -1,0 +1,34 @@
+--WORKFLOW--
+
+Workflow é o fluxo de trabalho, ou seja, a sequência de passos que uma equipe segue para desenvolver software, desde o planejamento até a entrega.
+É como um roteiro ou um mapa que mostra o que cada pessoa precisa fazer, quem depende de quem, e quando cada etapa deve ser realizada. Isso ajuda a equipe a não se perder e a garantir que todos estão seguindo na mesma direção.
+
+--CONTROLE DE VERSÃO--
+
+Controle de versão é a prática de manter várias versões do código fonte ao longo do tempo, com um histórico completo de alterações.
+É como um "salvar" inteligente, toda vez que você faz uma mudança no código, o controle de versão cria uma cópia para que você possa voltar e ver o que mudou, comparar versões ou desfazer erros.
+
+--ISSUE TRACKING--
+
+Issue Tracking é o processo de registrar e monitorar os problemas (bugs) ou tarefas durante o desenvolvimento do software.
+Funciona como uma lista de tarefas ou um mural de post-its online, onde todos os problemas e melhorias são anotados. Isso ajuda a equipe a saber o que ainda precisa ser resolvido, quem está responsável por cada item, e acompanhar o progresso.
+
+--CONTROLE DE MUDANÇA--
+
+Controle de mudança é o processo de gerenciar modificações no software, garantindo que as mudanças sejam analisadas, aprovadas e implementadas de forma organizada.
+O controle de mudança é como ter um arquiteto que primeiro aprova as mudanças antes de começar, para garantir que nada será feito de forma desordenada ou que cause problemas depois.
+
+--INTEGRAÇÃO CONTINUA--
+
+Integração contínua é a prática de integrar o código de todos os desenvolvedores várias vezes ao dia em um repositório compartilhado, verificando automaticamente se tudo está funcionando.
+É como se toda vez que alguém fizesse uma mudança, um sistema automático conferisse para garantir que essas mudanças se encaixam com o que todo mundo está fazendo. Isso evita surpresas desagradáveis quando o código de diferentes pessoas se junta.
+
+--DEPLOY CONTINUO--
+
+Deploy contínuo é o processo de enviar automaticamente novas versões do software para o ambiente de produção, logo após serem testadas e aprovadas.
+É como apertar o botão "enviar" e o sistema cuidar de entregar o software diretamente para os usuários, sem precisar de intervenção humana. Isso agiliza muito a entrega de atualizações.
+
+--PULL REQUEST--
+
+Um Pull Request é uma forma de propor mudanças no código, onde outros desenvolvedores podem revisar e aprovar as modificações antes de elas serem integradas.
+O pull request é como esse processo de revisão, onde as outras pessoas podem sugerir melhorias antes de aceitar a mudança.
