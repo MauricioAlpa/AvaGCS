@@ -69,3 +69,5 @@ git remote rm <apelido> – Remove o repositório remoto identificado pelo apeli
 git remote rename <antigo> <novo> – Renomeia o apelido de um repositório remoto, permitindo que você mude a forma como se refere a ele.
 
 git remote set-url <apelido> <URL> – Altera a URL associada a um repositório remoto específico, permitindo que você mude para um novo local sem precisar remover e adicionar o remote novamente.
+
+ola tudo bem
