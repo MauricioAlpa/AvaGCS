@@ -1,0 +1,58 @@
+---Aula 1---
+
+Slide 1 ao 6: Apresentação do curso, e as métricas de avaliação.
+Slide 7: Breve resumo do que se trata o SCM
+Slide 8: De forma resumida, mostra o que é um software
+Slide 9: Explica para que serve o SCM, demonstrando alguns topicos que percorremos durante o desenvolvimento de um software
+Slide 10: O slide descreve a evolução da Gerência de Configuração de Software desde os anos 50, inicialmente focada em aeronaves militares, até a adoção de normas internacionais nos anos 80.
+Slide 11: Este slide define item de configuração, baseline e auditoria de configuração, destacando a importância do gerenciamento de software para manter a rastreabilidade e evitar inconsistências.
+Slide 12: O slide mostra que no desenvolvimento de software, todos têm um papel importante no gerenciamento de configuração, desde desenvolvedores e testadores até gerentes e designers.
+Slide 13: A gerência de mudanças no software envolve a autorização e o controle de alterações propostas, garantindo que elas sejam avaliadas e implementadas de forma a manter a estabilidade do sistema.
+Slide 14: O Issue Tracking é um sistema que gerencia solicitações de mudança (issues) relacionadas a tarefas como implementação e correções, utilizando atributos como título, descrição e prioridade para organizar e acompanhar o progresso.
+Slide 15: Milestones são marcos de projeto que agrupam issues relacionadas a um objetivo específico, enquanto o comitê de controle de mudança é responsável por revisar e decidir sobre as mudanças propostas no projeto.
+Slide 16: Imagem que demonstra como as plataformas de versionamento já integram os conceitos de SCM.
+Slide 17: Imamgem que demonsta o monstro que o código ficaria, caso não houvessem metodos para gerir o desenvolvimento.
+Slide 18: O slide reflete sobre as dificuldades de desenvolver grandes softwares da mesma forma que alteramos documentos de texto, destacando a falta de escalabilidade e a confusão gerada por versões e arquivos distintos.
+Slide 19: O slide destaca que o controle de versão é aplicado através de ferramentas, com o Git sendo a mais utilizada para documentar alterações no código.
+Slide 20: O slide explica que o diretório de trabalho é onde estão os arquivos do projeto, o repositório armazena as versões e histórico de modificações, e o histórico de versão documenta as alterações realizadas no projeto.
+Slide 21: Brincadeira com uma imagem, reforçando a ideia de que sem o SCM, o código viraria algo sem pé nem cabeça.
+
+---Aula 2---
+
+Slide 2: Este slide trás o que foi abordado na aula passada e sua importância, destacando o Git como a tecnologia mais popular para versionamento de código.
+Slide 3: imagens de ferramentas de versionamento.
+Slide 4: O slide em questão nos apresenta o Git, destacando-o como o sistema de controle de versão mais popular, criado em 2005 pelos desenvolvedores do Linux Kernel após a mudança da ferramenta que utilizavam.
+Slide 5: Neste slide, somos orientados a baixar o instalador do Git e seguir com a instalação.
+Slide 6: Logos de serviços de hospedagem git.
+Slide 7: Este slide nos apresenta o GitHub como uma plataforma de hospedagem de código com Git, conectando mais de 100 milhões de desenvolvedores e oferecendo projetos públicos e privados que podem ser modificados ou usados comercialmente.
+Slide 8: O slide em questão explica como integrar o GitHub ao VS Code.
+Slide 9: Neste slide, são explicados dois conceitos fundamentais: o diretório, que contém os arquivos do projeto, e o repositório, que guarda as versões e o histórico de modificações desses arquivos.
+Slide 10: Este slide nos ensina a configurar as informações do usuário para os commits no Git.
+Slide 11: Este slide nos guia na criação de um repositório local no Git.
+Slide 12: Exemplo com imagens de como criar um repositorio remoto.
+Slide 13: Este slide explica que, para criar um commit, é necessário primeiro adicionar os arquivos à área de staging, uma área intermediária. 
+Slide 14: Este slide ensina como remover arquivos da área de staging caso tenham sido adicionados por engano.
+Slide 15: Este slide explica que, após adicionar as mudanças ao staging, é possível criar um commit com o comando 'git commit -m “Mensagem do Commit.
+Slide 16: Conjunto de memes bricando sobre a dificuldade de sair do vim.
+Slide 17: O slide ensina a criar um repositório no GitHub, adicionar a URL do repositório remoto com git remote add origin <url>, e usar git push -u origin master para enviar as mudanças para o repositório remoto.
+Slide 18: O slide mostra como clonar um repositório do GitHub para o local usando git clone.
+Slide 19: O slide fala que git pull traz as atualizações do repositório remoto para o local, enquanto git push envia as mudanças locais para o remoto. Você pode especificar uma branch diferente se precisa.
+Slide 20: O slide explica que `git clone` copia todo o histórico de um repositório, permitindo que você trabalhe ou faça modificações, mas é importante verificar as licenças.
+Slide 21: O slide descreve comandos úteis para desfazer ações no Git.
+Slide 22: Slide ensinando como se criam branchs e seus comandos.
+Slide 23: Slide demonstrando o comando checkout, que serve para movimentar-se entre as branchs.
+Slide 24: Apresenta o comando merge e como ele funciona.
+Slide 25: O slide fala sobre o fast forward em merges, que ocorre quando a branch mergeada é descendente da branch atual, atualizando a ponta da branch sem criar um commit de merge.
+Slide 26: O slide explica que o rebase combina mudanças entre branches de maneira diferente, reescrevendo o histórico de forma linear.
+Slide 27: Explica o que são conflitos.
+Slide 28: Primeira maneira de resolver o conflito, com merge --abort
+Slide 29: Segunda maneira de resolver um conflito, que é escolhendo uma versão.
+Slide 30: Terceira maneira, que é mesclando o arquivo.
+Slide 31: O slide aborda o conceito de merge request (MR), que é uma solicitação para mesclar branches. Essa prática ajuda a evitar conflitos e a revisar o código antes do merge.
+Slide 32: O slide exemplifica boas práticas pra commits.
+Slide 33: Imagem mostrando os motivos pelos quais se é importante manter boas práticas para commits.
+Slide 34: Mais exemplos de como se fazer bons commits.
+Slide 35: Slide fala sobre workflows.
+Slide 36: Slide descre o fluxo com bifurcação (fork)
+Slide 37: O slide aborda a possibilidade de trabalhar com um repositório local conectado a múltiplos repositórios remotos.
+Slide 38 ao 40: Atividade pontuada com orintações.
